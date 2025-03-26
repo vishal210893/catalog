@@ -17,4 +17,6 @@ parameter: {
 	imageReflectorControllerOptions?: [...string]
 	//+usage=advanced options for Image Automation Controller
 	imageAutomationControllerOptions?: [...string]
+	//+usage=onlyComponentDefinitions only enable crd components, default to false
+	onlyComponentDefinitions: *false | bool
 }
